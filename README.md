@@ -20,10 +20,10 @@
 ## Screenshots of Finished Product
 These were taken using Safari on MacOS
 
-![screenshot_1](images/screenshots/email_screenshot_1.png)
+![screenshot_1](screenshots/email_screenshot_1.png)
 
-![screenshot_2](images/screenshots/email_screenshot_2.png)
+![screenshot_2](screenshots/email_screenshot_2.png)
 
-![screenshot_3](images/screenshots/email_screenshot_3.png)
+![screenshot_3](screenshots/email_screenshot_3.png)
 
-![screenshot_4](images/screenshots/email_screenshot_4.png)
+![screenshot_4](screenshots/email_screenshot_4.png)
