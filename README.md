@@ -4,7 +4,7 @@
 * I was hired to design and build this marketing email for **Pet-Awesome** Pet Products. 
 * I used **html** and **CSS** to complete the marketing email.
 * The email was needed for the purposes of connecting with social media influencers in order to create brand marketing relationships
-* The email should display in the browser through GitHub Pages here: **[Github Pages](https://gaberull.github.io)**
+* The email should display in the browser through GitHub Pages here: **<https://gaberull.github.io>**
 
 ## Process for emailing from gmail and chrome:
 1. copy html document from plain text editor
