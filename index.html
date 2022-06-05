@@ -4,10 +4,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>It's a Match!</title>
 		<style type="text/css">
-			
+			/* It's possible */	
 			@media only screen and (max-width: 660px){
 				table.container {width: 480px !important;}
-				#phone_1 img { width: 90%; height: 90%}
+				/* Note: it is invalid to provide percentages directly as <img> width or 
+				   height attribute unless you're using HTML 4.01. Which I am here.
+				   Percentages are of the container, not img original attributes */
+				#phone_1 img { width: 90%; height: 90%} 	
 				#phone_2 img { width: 99%; height: 99%;}
 				#phone_3 img { width: 97%; height: 97%;}
 				#we_created img { width: 90%; height: 90%;}
