@@ -32,7 +32,12 @@
 				#tiktok_btn img {width: 34px; height: 34px;}
 				
 			}
-
+			@media only screen and (max-width: 449px){
+				table.container {width: 100% !important; table-layout: fixed !important;}
+				#products_table {width: 100% !important; height: auto; table-layout: fixed !important;}
+				#products_table td {padding: 0px 0px 0px 0px !important; width: 33%; height: auto;}
+				#products_table td img{ width: 100%; height: auto;}
+			}
 			@media only screen and (-webkit-min-device-pixel-ratio: 3){
 				table.container {width: 100% !important; table-layout: fixed !important;}
 				td.phones#phone_1 { padding-left: 8%; padding-right: 8%;}
@@ -47,15 +52,14 @@
 				#insta_btn img {width: 34px; height: 34px;}
 				#email_btn img {width: 34px; height: 34px;}
 				#tiktok_btn img {width: 34px; height: 34px;}
+				#products_table {width: 100% !important; height: auto; padding-left: 10%; padding-right: 10%; table-layout: fixed !important;}
+				
 				
 			}
-																	
-			@media only screen and (max-width: 449px){
-				table.container {width: 100% !important; table-layout: fixed !important;}
-				#products_table {width: 100% !important; height: auto; table-layout: fixed !important;}
-				#products_table td {padding: 0px 0px 0px 0px !important; width: 33%; height: auto;}
-				#products_table td img{ width: 100%; height: auto;}
-			}
+						/*
+			#products_table td {padding: 0px 0px 0px 0px !important; width: 33%; height: auto;}
+				#products_table td img{ width: 100%; height: auto;}													
+					*/
 																	
 		</style>
 	</head>	
