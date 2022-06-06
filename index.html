@@ -4,23 +4,25 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>It's a Match!</title>
 		<style type="text/css">
-			/* It's possible */	
+			
 			@media only screen and (max-width: 660px){
 				table.container {width: 480px !important;}
-				/* Note: it is invalid to provide percentages directly as <img> width or 
-				   height attribute unless you're using HTML 4.01. Which I am here.
-				   Percentages are of the container, not img original attributes */
-				#phone_1 img { width: 90%; height: 90%} 	
-				#phone_2 img { width: 99%; height: 99%;}
-				#phone_3 img { width: 97%; height: 97%;}
-				#we_created img { width: 90%; height: 90%;}
-				#PALogo img { width: 40%; height: 40%;}
+				#phone_1 img { width: 90%; height: auto; }
+				#phone_2 img { width: 99%; height: auto;}
+				#phone_3 img { width: 97%; height: auto;}
+				#we_created img { width: 90%; height: auto;}
+				#PALogo img { width: 40%; height: auto;}
 				#insta_btn img {width: 40px; height: 40px;}
 				#email_btn img {width: 40px; height: 40px;}
 				#tiktok_btn img {width: 40px; height: 40px;}
 			}
 			@media only screen and (max-width: 510px){
 				table.container {width: 100% !important; }
+
+				/* The following commented out lines were what I was using before adding 
+					padding to container. Still a viable option if want to change back later */
+																/*
+
 				#phone_1 img { width: 80vw;}
 				#phone_2 img { width: 99vw;}
 				#phone_3 img { width: 99vw;}
@@ -29,7 +31,20 @@
 				#insta_btn img {width: 34px; height: 34px;}
 				#email_btn img {width: 34px; height: 34px;}
 				#tiktok_btn img {width: 34px; height: 34px;}
-				
+																*/
+
+				td.phones#phone_1 { padding-left: 8%; padding-right: 8%;}
+				td.phones#phone_1 img { width: 100%; height: 100%;}
+				td.phones#phone_2 { padding-left: 1%; padding-right: 0%;}
+				td.phones#phone_2 img { width: 100%; height: 100%;}
+				td.phones#phone_3 { padding-left: 0%; padding-right: 0%;}
+				td.phones#phone_3 img { width: 100%; height: 100%;}
+				td#we_created { padding-left: 6%; padding-right: 6%;}
+				td#we_created img { width: 100%; height: 100%;}
+				#PALogo img { width: 155px; height: 155px;}
+				#insta_btn img {width: 34px; height: 34px;}
+				#email_btn img {width: 34px; height: 34px;}
+				#tiktok_btn img {width: 34px; height: 34px;}
 			}	
 		</style>
 	</head>	
