@@ -4,4 +4,6 @@
 .Spotlight-V100
 .Trashes
 copy.html
+
+# VS code settings folder
 .vscode
