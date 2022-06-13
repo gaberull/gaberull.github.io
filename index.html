@@ -5,7 +5,7 @@
 		<!--  <meta name="viewport" content="width=device-width, initial-scale=1" />   -->
 		<title>It's a Match!</title>
 		<style type="text/css" rel="stylesheet">
-			
+
 			@media only screen and (max-width: 660px)
 			{
 				table.container {width: 480px !important; table-layout: fixed !important;}
@@ -17,9 +17,27 @@
 				#insta_btn img {width: 40px; height: 40px;}
 				#email_btn img {width: 40px; height: 40px;}
 				#tiktok_btn img {width: 40px; height: 40px;}
-			}					
-			/* media query for mobile devices in portrait mode *                          480 before */
-			@media only screen and (min-width: 320px) and (max-device-width : 510px) and (orientation: portrait)
+			}	
+			
+			@media only screen and (max-width: 520px) 
+			{
+				table.container {width: 100% !important; table-layout: fixed !important;} 
+				td.phones#phone_1 { padding-left: 8%; padding-right: 8%;}
+				td.phones#phone_1 img { width: 100%; height: auto;}
+				td.phones#phone_2 { padding-left: 0%; padding-right: 0%;}
+				td.phones#phone_2 img { width: 100%; height: auto;}
+				td.phones#phone_3 { padding-left: 0%; padding-right: 0%;}
+				td.phones#phone_3 img { width: 100%; height: auto;}
+				td#we_created { padding-left: 6%; padding-right: 6%;}
+				td#we_created img { width: 100%; height: auto;}
+				#PALogo img { width: 155px; height: 155px;}
+				#insta_btn img {width: 34px; height: 34px;}
+				#email_btn img {width: 34px; height: 34px;}
+				#tiktok_btn img {width: 34px; height: 34px;}
+			}
+
+			/* media query for mobile devices in portrait mode *               510 ?     */
+			@media only screen and (min-width: 320px) and (max-device-width : 480px) and (orientation: portrait)
 			{
 				table.container {width: 100% !important; table-layout: fixed !important;}
 				#products_table {width: 100% !important; height: auto; padding-left: 2%; padding-right: 2%; padding-bottom: 40px; table-layout: fixed !important;}
@@ -52,7 +70,7 @@
 	background-repeat: no-repeat; background-size: 100% 100%;">		
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 100%; table-layout: fixed;"> 
 			<tr>
-				<td align="center" > <!-- TODO: width="100%" add this width back? Or no? -->
+				<td align="center" width="100%" style="width: 100%;"> <!-- TODO: width="100%" style="width: 100%;" add this width back? Or no? -->
 					<!-- Container starts here -->
 					<table class="container" width="640px" border="0" cellpadding="0">
 						<!-- row 1/7 - logo row  -->
