@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<!--  <meta name="viewport" content="width=device-width, initial-scale=1" />   -->
 		<title>It's a Match!</title>
 		<style type="text/css" rel="stylesheet">
 			
@@ -17,36 +17,15 @@
 				#insta_btn img {width: 40px; height: 40px;}
 				#email_btn img {width: 40px; height: 40px;}
 				#tiktok_btn img {width: 40px; height: 40px;}
-			}
-			@media only screen and (max-width: 510px) 
+			}					
+			/* media query for mobile devices in portrait mode *                          480 before */
+			@media only screen and (min-width: 320px) and (max-device-width : 510px) and (orientation: portrait)
 			{
 				table.container {width: 100% !important; table-layout: fixed !important;}
-				td.phones#phone_1 { padding-left: 8%; padding-right: 8%;}
-				td.phones#phone_1 img { width: 100%; height: auto;}
-				td.phones#phone_2 { padding-left: 1%; padding-right: 0%;}
-				td.phones#phone_2 img { width: 100%; height: auto;}
-				td.phones#phone_3 { padding-left: 0%; padding-right: 0%;}
-				td.phones#phone_3 img { width: 100%; height: auto;}
-				td#we_created { padding-left: 6%; padding-right: 6%;}
-				td#we_created img { width: 100%; height: auto;}
-				#PALogo img { width: 155px; height: 155px;}
-				#insta_btn img {width: 34px; height: 34px;}
-				#email_btn img {width: 34px; height: 34px;}
-				#tiktok_btn img {width: 34px; height: 34px;}
-			}
-			@media only screen and (max-width: 449px)
-			{
-				table.container {width: 100% !important; table-layout: fixed !important;}
-				#products_table {width: 100% !important; height: auto; table-layout: fixed !important;}
-				#products_table td {padding: 0px 0px 0px 0px !important; width: 33%; height: auto;}
-				#products_table td img{ width: 100%; height: auto;}
-			}
-			@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait),
-				   only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),
-				   only screen and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait),
-				   only screen  and (-moz-min-device-pixel-ratio: 1.5) and (orientation: portrait)
-			{
-				table.container {width: 100% !important; table-layout: fixed !important;}
+				#products_table {width: 100% !important; height: auto; padding-left: 2%; padding-right: 2%; padding-bottom: 40px; table-layout: fixed !important;}
+				#products_table td {width: 33%; height: auto; padding: 0px 0px 0px 0px;}
+				#products_table img {width: 100%; height: auto;}	/* need td ? */
+				
 				td.phones#phone_1 { padding-left: 8%; padding-right: 8%;}
 				td.phones#phone_1 img { width: 100%; height: auto;}
 				td.phones#phone_2 { padding-left: 0%; padding-right: 0%;}
@@ -55,10 +34,7 @@
 				td.phones#phone_3 img { width: 100%; height: auto;}
 				td#we_created { padding-left: 6%; padding-right: 6%;}
 				td#we_created img { width: 100%; height: auto;}
-				
-				#products_table {width: 100% !important; height: auto; padding-left: 2%; padding-right: 2%; padding-bottom: 40px; table-layout: fixed !important;}
-				#products_table td {width: 33%; height: auto; padding: 0px 0px 0px 0px;}
-				#products_table img {width: 100%; height: auto;}
+
 				#stairs_elem {padding-right: 9px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px;}
 				#carseat_elem {padding-left: 9px; padding-right: 9px; padding-top: 0px; padding-bottom: 0px;}
 				#pottytray_elem {padding-left: 9px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;}
@@ -76,10 +52,10 @@
 	background-repeat: no-repeat; background-size: 100% 100%;">		
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 100%; table-layout: fixed;"> 
 			<tr>
-				<td align="center">
+				<td align="center" > <!-- TODO: width="100%" add this width back? Or no? -->
 					<!-- Container starts here -->
 					<table class="container" width="640px" border="0" cellpadding="0">
-						<!-- row 1/7 - logo row | bgcolor="ffffff" -->
+						<!-- row 1/7 - logo row  -->
 						<tr>
 							<td align="center" id="phone_1" class="phones" style="padding-bottom: 62px;"> 
 								<img src="https://dm2301files.storage.live.com/y4m4NNr3X7jelJFSUyZt8IWl4hf3Ux6SJm6FcQOuyYm9gLt_4McU_kM83t0A4zp2Blxdf4sEVJlqi7Re0sA9NqPdZB5jcVaLS665sUeD7CFa4F43K95l8bLBvjwPCcRFlQKD6Qb5tUMcD8S-h2scngEyKG-AM90w_AkB9M2vXSWOBr2EDzSnRzK_bg6v3p3Rcd7?width=1165&height=2041&cropmode=none" alt="phone image 1" width="500px" height="876px" border="0">	
