@@ -8,7 +8,8 @@
 * The email template is currently being used for the purposes of connecting with social media influencers in order to create brand marketing relationships
 * Some of my earlier work on this project is in a different repository of mine. I moved it to this one to make use of the GitHub Pages domain name
     - **[PetAwesomeEmail Repository](https://github.com/gaberull/PetAwesomeEmail)**
-* The email should display in the browser through GitHub Pages here: **<https://gaberull.github.io>**
+* The email should display in the browser through GitHub Pages here: 
+    - **<https://gaberull.github.io>**
 
 ## Process for emailing from gmail and chrome:
 1. copy text of entire html document from plain text editor
